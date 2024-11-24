@@ -1,11 +1,60 @@
 <html>
   <head>
     <title>Updated HTML 101</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #00274C; /* UMass Boston Blue */
+        background-color: #F5F5F5; /* Light Gray Background for Contrast */
+        margin: 20px;
+        line-height: 1.6;
+      }
+      h1 {
+        color: #0071BC; /* Lighter Blue for Headings */
+      }
+      h2 {
+        color: #005A9C; /* Slightly Darker Blue for Subheadings */
+        border-bottom: 2px solid #005A9C; /* Professional Divider */
+        padding-bottom: 5px;
+      }
+      p {
+        margin: 10px 0;
+      }
+      a {
+        color: #0071BC; /* Link Color */
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .student-info {
+        background-color: #E6F2FA; /* Soft Blue Background */
+        padding: 15px;
+        border: 1px solid #0071BC;
+        border-radius: 5px;
+        max-width: 400px;
+      }
+    </style>
   </head>
   <body>
     <h1>Welcome to My Updated HTML Page</h1>
-    <a href="https://www.usf.edu">Visit University of South Florida</a>
+    <a href="https://www.umb.edu">Visit University of Massachusetts Boston</a>
+    <p>Discover Excellence at UMass Boston!</p>
+    <a href="https://www.umb.edu" target="_blank">
+      <img src="https://www.umb.edu/media/umassboston/content-assets/images/branding-assets/umb-blue-logo.svg" 
+           alt="UMass Boston Beacon Logo" 
+           style="width: 200px;">
+    </a>
     <p>This page is part of a GitHub version control exercise.</p>
-    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+    <!-- Styled Student Information Section -->
+    <h2>Student Information</h2>
+    <div class="student-info">
+      <p><strong>Name:</strong> Ismail ElKoubaydi</p>
+      <p><strong>Student ID:</strong> 02151372</p>
+      <p><strong>Course ID:</strong> IT 246</p>
+      <p><strong>Assignment Number:</strong> HW13</p>
+      <p><strong>Date:</strong> December 2024</p>
+    </div>
   </body>
 </html>
